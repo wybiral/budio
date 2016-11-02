@@ -1,0 +1,10 @@
+{
+  "name": "budio",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -r ./budio/index.js:budio -o budio.req.js"
+  },
+  "author": "Davy Wybiral (davy.wybiral@gmail.com)"
+}
